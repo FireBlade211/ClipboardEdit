@@ -26,6 +26,6 @@ Go to the [Releases](https://github.com/FireBlade211/ClipboardEdit/releases) pag
 For more info, see the help file by clicking **Help** -> **Help Contents** in ClipboardEdit.
 
 ## Snapshot Format
-**ClipboardEdit** uses a custom file format, **.CSNAP**, to store clipboard snapshots. These clipboard snapshots store information about the formats in the clipboard in binary format. You can view more info in the [help file](#help), but for your convenience, if you want to inspect these files in a hex editor, an **ImHex** pattern is provided [here](misc/pattern.hexpat).
+**ClipboardEdit** uses a custom file format, **.CSNAP**, to store clipboard snapshots. These clipboard snapshots store information about the formats in the clipboard in binary format. You can view more info in the [help file](#help), but for your convenience, if you want to inspect these files in a hex editor, an **ImHex** pattern is provided [here](misc/csnap.hexpat).
 
 However note that this pattern won't help you for **.CSNAPZ** files. **.CSNAPZ** files are identical to their regular **.CSNAP** counterparts, but their full content is **GZIP**-compressed.
