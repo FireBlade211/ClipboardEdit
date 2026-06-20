@@ -1,0 +1,78 @@
+﻿// Clipboard
+AddClipboardFormatListener
+RemoveClipboardFormatListener
+OpenClipboard
+CloseClipboard
+EnumClipboardFormats
+GetClipboardFormatNameW
+GetClipboardData
+SetClipboardData
+EmptyClipboard
+RegisterClipboardFormatW
+
+// GDI
+GetObject
+GetDIBits
+ReleaseDC
+CreateDIBitmap
+
+GetDC
+GetEnhMetaFileBits
+GetMetaFileBitsEx
+SetEnhMetaFileBits
+
+CreateIcon
+
+// COM
+CoInitializeEx
+CoUninitialize
+CoCreateInstance
+
+// Memory
+GlobalLock
+GlobalSize
+GlobalUnlock
+GlobalAlloc
+
+// Constants
+WM_CLIPBOARDUPDATE
+
+// CsWin32 does not have the WinMD metadata for these constants,
+// so we define them ourselves (see Helpers\ClipboardHelper.cs)
+
+//CF_DSPENHMETAFILE
+//CF_DSPMETAFILEPICT
+//CF_ENHMETAFILE
+//CF_METAFILEPICT
+
+//CF_BITMAP
+//CF_DSPBITMAP
+//CF_PALETTE
+
+//CF_DIB
+//CF_DIBV5
+//CF_DSPTEXT
+//CF_OEMTEXT
+//CF_TEXT
+//CF_UNICODETEXT
+
+//BI_RGB
+//DIB_RGB_COLORS
+
+// Types
+BITMAP
+BITMAPINFOHEADER
+METAFILEPICT
+ITaskbarList3
+
+// Misc
+OpenThemeData
+DrawThemeBackground
+GetThemePartSize
+DrawThemeText
+
+TaskDialogIndirect
+SendMessageW
+TASKDIALOG_MESSAGES
+
+SHOpenWithDialog

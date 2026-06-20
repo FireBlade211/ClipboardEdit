@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Clipboard Snapshot file structure</Title>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css"></LINK>
+</HEAD>
+<BODY>
+<H1>File structure</H1>
+
+<P>The Clipboard Snapshot (<B>.CSNAP</B>) file format allows for storing data about what formats are in the clipboard, as well as when it was taken.</P>
+
+<TABLE CELLSPACING=2 BORDER=1 CELLPADDING=8>
+<TR>
+<TD><B>Offset</B></TD>
+<TD><B>Size</B></TD>
+<TD><B>Description</B></TD>
+</TR>
+
+<TR>
+<TD><CODE>0x00</CODE></TD>
+<TD>4</TD>
+<TD>Magic (<CODE>0x0F1B0A6D</CODE>)</TD>
+</TR>
+
+<TR>
+<TD><CODE>0x04</CODE></TD>
+<TD>4</TD>
+<TD>Version</TD>
+</TR>
+
+<TR>
+<TD><CODE>0x08</CODE></TD>
+<TD>4</TD>
+<TD>Format count</TD>
+</TR>
+
+<TR>
+<TD><CODE>0x0C</CODE></TD>
+<TD>Variable</TD>
+<TD>Format entries</TD>
+</TR>
+
+<TR>
+<TD>After format entries</TD>
+<TD>8</TD>
+<TD>FILETIME taken</TD>
+</TR>
+</TABLE>
+
+<P>The file starts with a header (<CODE>0x0F1B0A6D</CODE>) denoting that it is a clipboard snapshot file. After the header is the 4-byte (32-bit) version number. The following version numbers are currently available:</P>
+
+<UL>
+<LI><CODE>0x10000000</CODE> - Version 1</LI>
+</UL>
+
+<P>Following the version number is the count of clipboard formats in the snapshot, also stored as a 4-byte integer.</P>
+
+<P>Afterwards, the actual array of the formats is stored. Each format follows the structure of an unsigned 4-byte integer identifying the clipboard format, such as <CODE>CF_TEXT</CODE>, followed by the 4-byte length, and finally the actual data. This should be repeated for the amount specified in the count field earlier.</P>
+
+<P>Finally, at the end is the time and date the snapshot was taken, specified via a Windows <CODE>FILETIME</CODE> in the UTC time zone. This time is specified as an 8-byte (64-bit) integer of 100-nanosecond intervals since 00:00:00 UTC on January 1, 1601.</P>
+
+</BODY>
+</HTML>

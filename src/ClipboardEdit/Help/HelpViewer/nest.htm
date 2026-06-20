@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft HTML Help Workshop 4.2">
+<title>Using nested expressions when searching</title>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css"></LINK>
+</head>
+<h1>Using nested expressions when searching
+</h1>
+
+<p>Nested expressions allow you to create complex searches for information. For example,  "control AND ((active OR dde) NEAR window)" finds topics containing the word "control" along with the words "active" and "window" close together, or containing "control" along with the words "dde" and "window" close together.
+<p>The basic rules for searching help topics using nested expressions are as follows:
+</p>
+
+<ul>
+<li>You can use parentheses to nest expressions within a query. The expressions in parentheses are evaluated before the rest of the query.
+<li>If a query does not contain a nested expression, it is evaluated from left to right. For example: "Control NOT active OR dde" finds topics containing the word "control" without the word "active," or topics containing the word "dde." On the other hand, "control NOT (active OR dde)" finds topics containing the word "control" without either of the words "active" or "dde."
+<li>You cannot nest expressions more than five levels deep.
+</ul>
+<p>
+<OBJECT id=hhctrl type="application/x-oleobject"
+        classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"
+        width=100
+        height=100
+>
+    <PARAM name="Command" value="Related Topics, MENU">
+    <PARAM name="Button" value="Text:Related Topics">
+    <PARAM name="Item1" value="Searching for help topics;basic.htm">
+    <PARAM name="Item2" value="Searching for words or phrases;wild.htm">
+    <PARAM name="Item3" value="Defining search terms;bool.htm">
+</OBJECT>
+
+</p>
+
+</body>
+</html>

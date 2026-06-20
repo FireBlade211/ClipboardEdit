@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Documentation Index Generator</Title>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css"></LINK>
+</HEAD>
+<BODY>
+<H1>Documentation Index Generator</H1>
+
+<P>The documentation index generator is what generates the <A HREF="docidx.htm">documentation index</A> whenever <B>ClipboardEdit</B> is launched for the first time or the <B>Update Documentation</B> button is clicked on the menu bar.</P>
+
+<P>When the documentation index generator runs, it performs the following tasks:</P>
+
+<OL>
+<LI>The generator downloads the latest documentation data from the <A HREF="https://github.com/MicrosoftDocs/Win32" TARGET="_blank">MicrosoftDocs</A> organization on GitHub.</LI>
+<LI>It parses the markdown data to retrieve the names and descriptions of clipboard formats.</LI>
+<LI>If the description includes a link with text that is all uppercase (usually this indicates it is a struct), it parses the relative path and downloads the markdown data for that page.</LI>
+<LI>Once that markdown data is found, the generator parses it to strip the header and other unneccessary information.</LI>
+<LI>It repeats this process for every other format.</LI>
+<LI>Once all the formats are done, it serializes the data into a JSON file that can be loaded later.</LI>
+</OL>
+
+<P>This process does require an internet connection, but it ensures the documentation is always up-to-date. You can manually initiate the generator by clicking <B>Update Documentation</B> on the <B>Help</B> menu.</P>
+
+</BODY>
+</HTML>

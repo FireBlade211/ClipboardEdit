@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Welcome">
+		<param name="Local" value="welcome.htm">
+		<param name="ImageNumber" value="20">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="What is ClipboardEdit?">
+		<param name="Local" value="about.htm">
+		<param name="ImageNumber" value="9">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Using the Help Viewer">
+		<param name="Local" value="HelpViewer\general.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Help Viewer">
+			<param name="Local" value="HelpViewer\overview.htm">
+			<param name="ImageNumber" value="21">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Get more out of help">
+				<param name="Local" value="HelpViewer\more.htm">
+				<param name="ImageNumber" value="18">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Find a help topic">
+				<param name="Local" value="HelpViewer\topic.htm">
+				<param name="ImageNumber" value="19">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Create a list of favorite topics">
+				<param name="Local" value="HelpViewer\favs.htm">
+				<param name="ImageNumber" value="37">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Copy a help topic">
+				<param name="Local" value="HelpViewer\copy.htm">
+				<param name="ImageNumber" value="12">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Print the current topic">
+				<param name="Local" value="HelpViewer\print.htm">
+				<param name="ImageNumber" value="23">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Get help in a dialog box">
+				<param name="Local" value="HelpViewer\db.htm">
+				<param name="ImageNumber" value="10">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Find topics using toolbar buttons">
+				<param name="Local" value="HelpViewer\move.htm">
+				<param name="ImageNumber" value="19">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Hide or show the Navigation pane">
+				<param name="Local" value="HelpViewer\hide.htm">
+				<param name="ImageNumber" value="35">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Use accessibility shortcut keys">
+				<param name="Local" value="HelpViewer\accessibility.htm">
+				<param name="ImageNumber" value="13">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Use shortcut menu commands">
+				<param name="Local" value="HelpViewer\shortcut.htm">
+				<param name="ImageNumber" value="20">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Full-Text Search">
+			<param name="Local" value="HelpViewer\ftsover.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Searching for topics">
+				<param name="Local" value="HelpViewer\fts_simple.htm">
+				<param name="ImageNumber" value="19">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Highlight words in searched topics">
+				<param name="Local" value="HelpViewer\highlt.htm">
+				<param name="ImageNumber" value="38">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Advanced Full-Text Search">
+				<param name="Local" value="HelpViewer\advanced.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Search for help topics">
+					<param name="Local" value="HelpViewer\basic.htm">
+					<param name="ImageNumber" value="19">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Find information with advanced full-text search">
+					<param name="Local" value="HelpViewer\fts.htm">
+					<param name="ImageNumber" value="18">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Search for words or phrases">
+					<param name="Local" value="HelpViewer\wild.htm">
+					<param name="ImageNumber" value="21">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Define search terms">
+					<param name="Local" value="HelpViewer\bool.htm">
+					<param name="ImageNumber" value="24">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Use nested expressions">
+					<param name="Local" value="HelpViewer\nest.htm">
+					<param name="ImageNumber" value="36">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Search for words in the titles of topics">
+					<param name="Local" value="HelpViewer\titles.htm">
+					<param name="ImageNumber" value="14">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Find words similar to your search term ">
+					<param name="Local" value="HelpViewer\similar.htm">
+					<param name="ImageNumber" value="17">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Search previous results">
+					<param name="Local" value="HelpViewer\previous.htm">
+					<param name="ImageNumber" value="26">
+					</OBJECT>
+			</UL>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Help Viewer Customization">
+			<param name="Local" value="HelpViewer\changes.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Customize the Help Viewer">
+				<param name="Local" value="HelpViewer\window.htm">
+				<param name="ImageNumber" value="41">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Change formatting for accessibility">
+				<param name="Local" value="HelpViewer\disability.htm">
+				<param name="ImageNumber" value="27">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="View help topics grouped by information type ">
+				<param name="Local" value="HelpViewer\custom.htm">
+				<param name="ImageNumber" value="18">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Change the font size of a topic">
+				<param name="Local" value="HelpViewer\font.htm">
+				<param name="ImageNumber" value="12">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Change colors in the Topic pane">
+				<param name="Local" value="HelpViewer\color.htm">
+				<param name="ImageNumber" value="37">
+				</OBJECT>
+		</UL>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Using ClipboardEdit">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="User interface">
+			<param name="Local" value="uilayout.htm">
+			<param name="ImageNumber" value="27">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Finding data">
+			<param name="Local" value="datafind.htm">
+			<param name="ImageNumber" value="19">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Viewing documentation">
+			<param name="Local" value="viewdoc.htm">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using Clipboard Snapshots">
+			<param name="Local" value="snap.htm">
+			<param name="ImageNumber" value="36">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Documentation system">
+		<param name="Local" value="docsys.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The Documentation Index">
+			<param name="Local" value="docidx.htm">
+			<param name="ImageNumber" value="39">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Documentation index generator">
+			<param name="Local" value="docidxgen.htm">
+			<param name="ImageNumber" value="14">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clipboard Snapshot file format">
+		<param name="Local" value="snapformat.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="File format structure">
+			<param name="Local" value="snapfmtstruct.htm">
+			<param name="ImageNumber" value="8">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

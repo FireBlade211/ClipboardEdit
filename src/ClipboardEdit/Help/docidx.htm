@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>The Documentation Index</Title>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css"></LINK>
+</HEAD>
+<BODY>
+<H1>The documentation index</H1>
+<P>The main part of the <B>ClipboardEdit Documentation System</B> is the documentation index.</P>
+
+<P>The index is usually located in <CODE>%LOCALAPPDATA%\ClipboardEdit\FormatDocData.json</CODE> and stores information about the names of clipboard formats, as well as their short description, and most importantly: their struct documentation markdown data.</P>
+
+<P>The file uses the JSON format and is stored as a JSON array which usually looks like this:</P>
+
+<PRE STYLE="white-space: pre-wrap; word-wrap: break-word;"><CODE>
+[
+     {
+         "Name": "CF_TEXT",
+         "Description": "A short description of the format.",
+         "AdditionalStructDocs": "Additional documentation for the structure that may be contained in this format. Markdown is supported. Leave empty to specify a struct does not exist for this format or does not have documentation available."
+     },
+     {
+         "Name": "CF_UNICODETEXT",
+         "Description": "A short description of the format.",
+         "AdditionalStructDocs": "Additional documentation for the structure that may be contained in this format."
+     }
+]
+</CODE></PRE>
+
+<P>The information stored in this index file is usually created by the <A HREF="docidxgen.htm">documentation index generator</A>.</P>
+
+</BODY>
+</HTML>

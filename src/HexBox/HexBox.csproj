@@ -1,0 +1,53 @@
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <RootNamespace>Be.Windows.Forms</RootNamespace>
+    <AssemblyName>HexBox</AssemblyName>
+    <ProjectGuid>{9212B163-EBFE-6198-E3FF-D6DCA97FAB6E}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OutputPath>bin\Debug\</OutputPath>
+    <IntermediateOutputPath>obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OutputPath>bin\Release\</OutputPath>
+    <IntermediateOutputPath>obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuiltInContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ByteCharConverters.cs" />
+    <Compile Include="ByteCollection.cs" />
+    <Compile Include="BytePositionInfo.cs" />
+    <Compile Include="DataBlock.cs" />
+    <Compile Include="DataMap.cs" />
+    <Compile Include="DynamicByteProvider.cs" />
+    <Compile Include="DynamicFileByteProvider.cs" />
+    <Compile Include="EbcdicByteCharProvider.cs" />
+    <Compile Include="FileByteProvider.cs" />
+    <Compile Include="FileDataBlock.cs" />
+    <Compile Include="FindOptions.cs" />
+    <Compile Include="HexBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HexCasing.cs" />
+    <Compile Include="IByteProvider.cs" />
+    <Compile Include="MemoryDataBlock.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+</Project>

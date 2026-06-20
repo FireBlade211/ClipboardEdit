@@ -1,0 +1,20 @@
+[OPTIONS]
+Binary Index=No
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=toc.hhc
+Default Font=Segoe UI,9,1
+Default Window=Main
+Default topic=welcome.htm
+Display compile progress=Yes
+Error log file=build.log
+Index file=idx.hhk
+Language=0x409 Angielski (Stany Zjednoczone)
+Title=ClipboardEdit Help
+
+[WINDOWS]
+Main="ClipboardEdit Help","toc.hhc","idx.hhk","welcome.htm",,,,,,0x23520,,0x302e,[522,454,1542,1012],0x10030000,,,,,,0
+
+
+[INFOTYPES]
+

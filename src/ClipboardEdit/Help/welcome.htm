@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Welcome</Title>
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="style.css"></LINK>
+
+<SCRIPT Language="JScript">
+function parser(fn) {
+var X, Y, sl, a, ra, link;
+ra = /:/;
+a = location.href.search(ra);
+if (a == 2)
+X = 14;
+else
+X = 7;
+sl = "\\";
+Y = location.href.lastIndexOf(sl) + 1;
+link = 'file:///' + location.href.substring(X, Y) + fn;
+location.href = link;
+}
+</SCRIPT> 
+
+</HEAD>
+<BODY>
+<H1 STYLE="vertical-align: middle;" ALIGN="CENTER">Welcome to the ClipboardEdit Help</H1>
+<P STYLE="vertical-align: middle;" ALIGN="CENTER">Select a topic in the table of contents to get started</P>
+
+<HR STYLE="margin-bottom: 2px;"></HR>
+<P STYLE="margin-bottom: 4px; margin-top: 2px;"><B>Useful links</B></P>
+
+<DIV STYLE="margin-top: 0; margin-left: 4px;">
+<A HREF="https://github.com/FireBlade211/ClipboardEdit" TARGET="_blank">GitHub</A><BR>
+<A HREF="https://github.com/FireBlade211/ClipboardEdit/issues/new/choose" TARGET="_blank">Submit an issue</A><BR>
+<A onclick="parser('../LICENSE')">View license</A>
+</DIV>
+
+</BODY>
+</HTML>

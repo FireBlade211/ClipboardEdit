@@ -1,0 +1,40 @@
+body {
+    font-family: Segoe UI, sans-serif;
+    font-size: 9pt;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+h1 {
+    color: rgb(0, 0, 230);
+    font-weight: lighter;
+    font-size: 16;
+}
+
+a {
+   text-decoration: underline;
+   color: rgb(0, 115, 230);
+   cursor: hand;
+}
+
+td {
+   border-style: solid;
+   border-color: gray;
+}
+
+th {
+    border-style: solid;
+    border-color: black;
+}
+
+tr {
+    border-style: none;
+}
+
+table {
+    border-style: none;
+    font-family: Segoe UI, sans-serif;
+    font-size: 9pt;
+}

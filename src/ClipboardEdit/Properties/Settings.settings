@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClipboardEdit.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MonospaceFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Consolas, 9pt</Value>
+    </Setting>
+    <Setting Name="SnapshotCompressionLevel" Type="System.IO.Compression.CompressionLevel" Scope="User">
+      <Value Profile="(Default)">Optimal</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

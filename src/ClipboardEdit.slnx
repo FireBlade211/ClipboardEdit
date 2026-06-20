@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ClipboardEdit/ClipboardEdit.csproj" Id="a5091949-8f99-47a8-af81-349bc2f14bc5" />
+  <Project Path="HexBox/HexBox.csproj" />
+</Solution>
